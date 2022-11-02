@@ -5,15 +5,21 @@
 3. assembly
 
 option folder
+
 binning tools option
+
 1. Adjust the number of each tool.
+
 2. store figures
+
 3. Applies to the binning process.
+ 
 
 
 
 
 using tools
+
 QC : fastQC, bmtagger, cutadapt,  trim-galore, bmtool  
 
 assembly : megahit, SPAdes
