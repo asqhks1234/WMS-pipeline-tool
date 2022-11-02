@@ -12,6 +12,7 @@ using tools
 QC : fastQC, bmtagger, cutadapt,  trim-galore, bmtool  
 assembly : megahit, SPAdes
 binning : jgi_contig_depth, sambools, bwa, maxbin2, metaBAT2, metaBAT1 
+
 extra : gcc, g++, autoconf, zlib1g, libbz2
 
 option folder
