@@ -1,0 +1,7 @@
+min_contig_length= 1000	// default 1000
+max_iteration= 50		// default 50
+thread= 1		// default 1 		스레드수
+prob_threshold= 0.8	// default	0.8		EM 알고리즘에 대한 최소 확률 
+plotmarker= false		// default	false		각 contig에 마커를표시 
+markerset= 107		// default 107		107개의 마커유전자 or 40개의 마커유전자중 에서 선택
+

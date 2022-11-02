@@ -1,0 +1,11 @@
+minContig= 2500		// default 2500		최소비닝 contig size
+max_p= 90		// default 90		최소 좋은 콘티그의 확률
+min_S= 60		// default 60		비닝엣지의 미니멈스코어 
+maxEdges= 200		// default 200		각 노드의 엣지의 최대갯수
+pTNF= 0			// default 0		TNF cutoff
+noadd= false		// default false 		작은 contig들에 추가적인 bin을 넣는것
+seed= 0			// default 0 		정확한 재현성을 위해사용? 결과를 제대로 보려면 양수여야함  0=random seed 
+numThread= 0		// default 0		사용할 쓰레드의 갯수 0=모든자원사용
+min_ClsSize= 200000	// default 200000		아웃풋 bin의 최소사이즈		
+minCV= 1.0		// default 1.0		각 라이브러리의 비닝들의 최소 mean coverage 
+minCVSum= 1.0		// default 1.0		최소의 모든 effective mean coverage 

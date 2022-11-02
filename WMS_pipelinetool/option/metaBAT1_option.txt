@@ -1,0 +1,23 @@
+p1= 90			// default=90 
+p2= 90			// default=90
+pB= 50			// default=50		주요 통제 민감도
+minProb= 90		// default=80		비닝 고려사항 최소확률
+minBinned= 45		// default=40		이미 비닝된 최소비율
+minCorr= 92		// default=90		누락된contig를 비닝하기위한 피어슨상관계수
+minSamples= 10		// default=10		상관관계 기반 고려를 위한 최소 표본크기수
+minCV= 1		// default=1		각 라이브러리의 비닝들의 최소 mean coverage
+minCVSum= 2		// default=2		최소의 모든 effective mean coverage
+minClsSize= 200000	// default=200000		아웃풋 bin의 최소사이즈
+minContig= 2500		// default	=2500	   	최소비닝 contig size
+minContigBycorr= 1000	// default=1000		피어슨 상관계수를 사용할때 고려한 contig의 최소크기 mincontigBycorr > mincontig 일때 비활성화됨
+numThreads= 0		// default=0		사용할 쓰레드의 갯수 0=모든자원사용
+maxVarRatio= 0		// default=0		분산/평균이 이 비율을 초과하는 모든 contig 무시(0 비활성화)	
+B= 20			// default=20		앙상블 비닝을 위한 부트스트랩수
+seed= 0			// default=0		앙상블비닝의 재현성을 위한 시드(0:랜덤시드사용)
+verysensitive= false
+sensitive= false
+specific= false
+veryspecific= true
+superspecific= false
+
+
